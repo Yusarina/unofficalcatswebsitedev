@@ -8,7 +8,7 @@ document.addEventListener('DOMContentLoaded', () => {
       if (theme === 'default') {
           themeStylesheet.href = '';
       } else {
-          themeStylesheet.href = `../beta/css/themes/${theme}-theme.css`;
+          themeStylesheet.href = `../css/themes/${theme}-theme.css`;
       }
       localStorage.setItem('selectedTheme', theme);
       
